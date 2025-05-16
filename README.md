@@ -26,4 +26,18 @@ Install the required Python packages:
 
 ```bash
   pip install streamlit requests beautifulsoup4 google-generativeai pandas
-  
+
+for running code use below command
+streamlit run webscraping.py
+
+Here is a requirements.txt file for your Streamlit app that uses web scraping, Google Gemini API, and data processing:
+
+streamlit>=1.30.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+google-generativeai>=0.4.1
+pandas>=2.2.1
+✅ How to use:
+Save this file as requirements.txt and install the dependencies with:
+
+pip install -r requirements.txt
